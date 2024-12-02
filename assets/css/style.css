@@ -18,6 +18,13 @@ section {
     flex-direction: column;
 }
 
+section .card-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 section .card {
     color: #fff;
     width: 375px;
